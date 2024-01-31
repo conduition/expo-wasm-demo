@@ -1,6 +1,6 @@
 # Expo WASM Demo
 
-This repository is simple [React-Native](https://reactnative.dev) app built with [Expo](https://expo.dev) which demonstrates how to import a [Rust](https://www.rust-lang.org) library via `wasm-pack` + `wasm2js`.
+This repository is a simple [React-Native](https://reactnative.dev) app built with [Expo](https://expo.dev) which demonstrates how to import a [Rust](https://www.rust-lang.org) library via `wasm-pack` + `wasm2js`.
 
 Specifically, this app imports [the `musig2` crate](https://github.com/conduition/musig2) and uses it to securely aggregate secp256k1 public keys together. In principle this approach could be applied to any pure rust crate.
 
