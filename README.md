@@ -8,6 +8,8 @@ Specifically, this app imports [the `musig2` crate](https://github.com/conduitio
 |:-------------------------:|:-----------------------------:|
 | <img src="./img/web.png"> | <img width="512" src="./img/android.png"> |
 
+The Rust wrapper code lives in [`./keyagg`](./keyagg), while the Expo app's entry point is [`App.js`](./App.js).
+
 ## Background
 
 Rust is the perfect platform for writing cryptographic primitives due to its precision and safety guarantees. But Rust is definitely NOT the perfect platform for front-end application development.
