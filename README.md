@@ -6,7 +6,7 @@ Specifically, this app imports [the `musig2` crate](https://github.com/conduitio
 
 |            Web            |            Android            |
 |:-------------------------:|:-----------------------------:|
-| <img src="./img/web.png"> | <img src="./img/android.png"> |
+| <img src="./img/web.png"> | <img width="512" src="./img/android.png"> |
 
 ## Background
 
