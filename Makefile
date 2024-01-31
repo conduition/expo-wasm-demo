@@ -7,6 +7,8 @@ keyagg:
 
 web: keyagg
 	npx expo export -p web
+	@sed -i 's_href="/_href="_' dist/index.html # absolute -> relative links
+	@sed -i 's_src="/_src="_' dist/index.html   # absolute -> relative links
 
 android: keyagg
 	npx expo prebuild -p android
