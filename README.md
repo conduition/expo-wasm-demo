@@ -10,6 +10,8 @@ Specifically, this app imports [the `musig2` crate](https://github.com/conduitio
 
 The Rust wrapper code lives in [`./keyagg`](./keyagg), while the Expo app's entry point is [`App.js`](./App.js).
 
+[Try out the web version on conduition.io](https://conduition.io/apps/expo-wasm-demo/).
+
 ## Background
 
 Rust is the perfect platform for writing cryptographic primitives due to its precision and safety guarantees. But Rust is definitely NOT the perfect platform for front-end application development.
