@@ -27,6 +27,13 @@ getrandom = { version = "0.2.12", default-features = false, features = ["js"] }
 [dev-dependencies]
 wasm-bindgen-test = "0.3.34"
 
+[build]
+strip = true
+
+[profile.dev]
+strip = true
+
 [profile.release]
 # Tell `rustc` to optimize for small code size.
 opt-level = "s"
+strip = true
